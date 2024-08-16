@@ -1,0 +1,13 @@
+{
+  "name": "zerocle-front",
+  "version": "1.0.0",
+  "description": "ZeroCle",
+  "repository": "git@gitlab-master.zeronsoftn.com:zeroback/zerocle-front.git",
+  "author": "yeonyu <yeonyu@zeronsoftn.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "^3.3.3"
+  }
+}
