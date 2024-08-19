@@ -29,7 +29,7 @@ export default defineConfig({
   plugins: [
     ViteEjsPlugin((config) => {
       return {
-        root: config.root,
+        BASE: config.base,
       };
     }),
     viteStaticCopy({

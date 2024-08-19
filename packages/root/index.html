@@ -21,12 +21,12 @@
     <script type="systemjs-importmap">
       {
         "imports": {
-          "single-spa": "/assets/single-spa.min.js",
-          "single-spa-layout": "/assets/single-spa-layout.min.js",
-          "vue": "/assets/vue.global.prod.js",
-          "vue-router": "/assets/vue-router.global.prod.js",
-          "pinia": "/assets/pinia.iife.prod.js",
-          "single-spa-vue": "/assets/single-spa-vue.min.js"
+          "single-spa": "<%= BASE %>assets/single-spa.min.js",
+          "single-spa-layout": "<%= BASE %>assets/single-spa-layout.min.js",
+          "vue": "<%= BASE %>assets/vue.global.prod.js",
+          "vue-router": "<%= BASE %>assets/vue-router.global.prod.js",
+          "pinia": "<%= BASE %>assets/pinia.iife.prod.js",
+          "single-spa-vue": "<%= BASE %>assets/single-spa-vue.min.js"
         }
       }
     </script>
@@ -38,7 +38,7 @@
     <script type="systemjs-importmap">
       {
         "imports": {
-          "root-config": "./src/main.ts"
+          "root-config": "<%= BASE %>src/main.ts"
         }
       }
     </script>
